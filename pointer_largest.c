@@ -1,12 +1,13 @@
 #include<stdio.h>
 void main()
 {
- int g,a=0, b[10],p=-32765,s=32766;
+ int g,a=0, b[10],p,s;
  printf("Enter the total number");
  scanf("%d",&g);
  int *ptr=&b;
  printf("Enter %d numbers  ",g);
- 
+ p=b[0];
+ s=b[0];
  for(;a<g;a++)
  {
   scanf("%d",&b[a]);
